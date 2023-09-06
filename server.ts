@@ -21,7 +21,6 @@ app.listen(8080,()=>{
 //http://localhost:8080/module1 (default get request)
 //http://localhost:8080/module1/cash  (get request)
 
-
 //http://localhost:8080/module2 (default get request)
 //http://localhost:8080/module2  (default post request)
 
