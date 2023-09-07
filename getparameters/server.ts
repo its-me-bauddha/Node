@@ -1,7 +1,7 @@
 //http://localhost:8008/login?uname=admin&upwd=admin
 
 
-//import express module
+//import express  module
 import * as express from "express";
 
 //rest services

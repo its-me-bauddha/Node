@@ -3,7 +3,7 @@ import * as express from "express";
 
 //create module 
 let accounts:any  = express.Router();
-
+  
 //create the  get request 
 accounts.get("/",(req:any,res:any):any=>{
         res.status(200).json({msg :"Welcome to the accounts module !!.."});
