@@ -18,7 +18,7 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended:false}));
 
 //connect to database
-mongoose.connect("mongodb+srv://harshbauddha563:H%40rshu1277@cluster0.chs95he.mongodb.net/");
+mongoose.connect("/");
 
 //define and initialize  the schema 
 const Schema = mongoose.Schema;
