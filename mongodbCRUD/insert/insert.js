@@ -7,7 +7,7 @@ var ashokeIT = mongodb.MongoClient;
 //create the module
 var insert = express.Router().post("/", function (req, res) {
     // connect with client
-    ashokeIT.connect("mongodb+srv://harshbauddha563:H@rshu1277@cluster0.chs95he.mongodb.net/?retryWrites=true&w=majority", function (err, connection) {
+    ashokeIT.connect("", function (err, connection) {
         if (err)
             throw err;
         else {
