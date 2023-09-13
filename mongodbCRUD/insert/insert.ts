@@ -8,7 +8,7 @@ let ashokeIT: any = mongodb.MongoClient;
 let insert: any = express.Router().post("/", (req: any, res: any): any => {
   // connect with client
   ashokeIT.connect(
-    "mongodb+srv://harshbauddha563:H@rshu1277@cluster0.chs95he.mongodb.net/?retryWrites=true&w=majority",
+    "",
     (err: any, connection: any): any => {
       if (err) throw err;
       else {
